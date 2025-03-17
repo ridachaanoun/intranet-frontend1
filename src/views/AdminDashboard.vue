@@ -80,12 +80,12 @@
 
 <script>
 import { ref, computed } from 'vue';
-import AdminHeader from '../components/admin/AdminHeader.vue';
-import DashboardOverview from '../components/admin/DashboardOverview.vue';
-import UsersManagement from '../components/admin/UsersManagement.vue';
-import ClassesManagement from '../components/admin/ClassesManagement.vue';
-import AddUserModal from '../components/admin/AddUserModal.vue';
-import AddClassModal from '../components/admin/AddClassModal.vue';
+import AdminHeader from '../components/Admin/AdminHeader.vue';
+import DashboardOverview from '../components/Admin/DashboardOverview.vue';
+import UsersManagement from '../components/Admin/UsersManagement.vue';
+import ClassesManagement from '../components/Admin/ClassesManagement.vue';
+import AddUserModal from '../components/Admin/AddUserModal.vue';
+import AddClassModal from '../components/Admin/AddClassModal.vue';
 import { useAppStore } from '../stores/app';
 
 export default {
