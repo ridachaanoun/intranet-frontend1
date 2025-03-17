@@ -80,7 +80,7 @@
 
 <script>
 import { ref, computed } from 'vue';
-import AdminHeader from '@/components/admin/AdminHeader.vue';
+import AdminHeader from '../components/Admin/AdminHeader.vue';
 import DashboardOverview from '@/components/admin/DashboardOverview.vue';
 import UsersManagement from '@/components/admin/UsersManagement.vue';
 import ClassesManagement from '@/components/admin/ClassesManagement.vue';
