@@ -80,13 +80,13 @@
 
 <script>
 import { ref, computed } from 'vue';
-import DashboardOverview from '@/components/admin/DashboardOverview.vue';
-import AdminHeader from '@/components/admin/AdminHeader.vue';
-import UsersManagement from '@/components/admin/UsersManagement.vue';
-import ClassesManagement from '@/components/admin/ClassesManagement.vue';
-import AddUserModal from '@/components/admin/AddUserModal.vue';
-import AddClassModal from '@/components/admin/AddClassModal.vue';
-import { useAppStore } from '@/stores/app';
+import DashboardOverview from '../components/admin/DashboardOverview.vue';
+import AdminHeader from '../components/admin/AdminHeader.vue';
+import UsersManagement from '../components/admin/UsersManagement.vue';
+import ClassesManagement from '../components/admin/ClassesManagement.vue';
+import AddUserModal from '../components/admin/AddUserModal.vue';
+import AddClassModal from '../components/admin/AddClassModal.vue';
+import { useAppStore } from '../stores/app';
 
 export default {
   name: 'AdminDashboard',
