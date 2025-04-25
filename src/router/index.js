@@ -5,6 +5,7 @@ import ClassroomsView from "../views/ClassroomsView.vue"
 import MarketplaceView from "../views/MarketplaceView.vue"
 import ProfileView from '@/views/ProfileView.vue'
 import AdminDashboard from '@/views/AdminDashboard.vue'
+import TeacherDashboard from '@/views/TeacherDashboard.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -39,7 +40,11 @@ const router = createRouter({
       name: 'AdminDashboard',
       component: AdminDashboard
     },
-
+    {
+      path: '/TeacherDashboard',
+      name: 'TeacherDashboard',
+      component: TeacherDashboard
+    }
   ]
 })
 
