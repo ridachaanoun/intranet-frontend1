@@ -20,7 +20,7 @@ const profileOpen = ref(false)
       </button>
       <div class="flex items-center space-x-2">
         <router-link to="/"  class="flex items-center space-x-2">
-        <img :src="logo" class="max-w-[100px]" alt="YouCode Logo" />
+        <img v-if="!appStore.isMobile" :src="logo" class="max-w-[100px]" alt="YouCode Logo" />
       </router-link>
       </div>
     </div>
