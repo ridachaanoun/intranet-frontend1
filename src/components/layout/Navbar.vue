@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import { useAppStore } from '../../stores/app'
+import logo from '../../assets/level/logo-white.png';
 
 const appStore = useAppStore()
 const notificationOpen = ref(false)
@@ -18,8 +19,9 @@ const profileOpen = ref(false)
         <i class="fas fa-bars text-lg"></i>
       </button>
       <div class="flex items-center space-x-2">
-        <img src="https://ui-avatars.com/api/?name=YouCode&background=00f0c0&color=fff" class="h-8 w-8 rounded" alt="YouCode Logo" />
-        <router-link to="/" class="text-text-primary font-bold tracking-wider hidden sm:inline-block">INTRANET</router-link>
+        <router-link to="/"  class="flex items-center space-x-2">
+        <img :src="logo" class="max-w-[100px]" alt="YouCode Logo" />
+      </router-link>
       </div>
     </div>
     
